@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Fim Google Fonts-->
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Fim do Bootstrap Icons -->
+    <link rel="stylesheet" href="style.css">
+    <title>Thaís Lopes Portlólio</title> <!-- Título -->
+</head>
+
+<body class="dark-theme">
+    <header> <!-- Cabeçalho -->
+        <div class="interface">
+            <div class="logo">
+                    <img src="image/logo_updated.jpeg" alt="logotipo TFL">
+            </div> <!-- Fecha a div da logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contat">
+                    <button class="btn-theme">Claro</button>
+            </div> <!-- fecha a div btn-contat -->
+        </div> <!-- Fecha a div da interface -->
+    </header> <!-- fecha o cabeçalho -->
+
+<!-- Corpo do site -->
+    <main>
+        <section class="topo-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="texto-inicial">
+                        <h1>Thaís Lopes <br><span>Desenvolvedora Web.</span></h1>
+                        <p>Transformando ideias em realidade digital através de criatividade e inovação.</p>
+                    <div class="btn-contat">
+                        <a target="_blank" href="https://thatalopes.github.io/meuCurriculo/">
+                            <button>Meu currículo</button>
+                        </a>
+                    </div>
+                    </div> <!-- fecha a div de texto -->
+                    <div class="imagem-inicial">
+                        <img src="image/eu.png" alt="mulher">
+                    </div> <!-- fecha a div de imagem -->
+                </div> <!-- fecha a div flex-->
+            </div> <!-- fecha a div interface -->
+        </section> <!-- fecha a section de topo -->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="image/eu(1).jpg" alt="Thaís">
+                    </div> <!-- fecha img-sobre -->
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER,<br> 
+                            <span>SOU THAÍS LOPES.</span></h2>
+                            <p>Brasileira, 31 anos, natural da cidade de Guararema, interior de São Paulo. Comecei no mundo do front-end antes mesmo de saber o que era isso, editando as páginas do obsoleto Orkut, mas a vida me fez percorrer outros caminhos ao longo dos anos.</p>
+                            <p>Fascinada por tecnologia e sempre curiosa pelas inovações, atualmente estou cursando Bacharelado em Tecnologia da Informação pela Universidade Virtual do Estado de São Paulo (UNIVESP), finalmente perseguindo o sonho de iniciar uma carreira na área.</p>
+                        <div class="rede-social">
+                            <a target="_blank" href="https://github.com/thatalopes"><button><i class="bi bi-github"></i></button></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/thaisfernandalopes/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div> <!-- fecha a div rede-social -->
+                    </div> <!-- fecha a div txt-sobre -->
+                </div> <!-- fecha div flex -->
+            </div> <!-- fecha div interface -->
+        </section> <!-- fecha section sobre --> 
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>HTML</h3>
+                        <p>Estruturação de página web através da linguagem de marcação HTML.</p>
+                    </div> <!-- fecha especialidades-box -->
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-css"></i>
+                        <h3>CSS</h3>
+                        <p>Estilização de websites com a linguagem CSS.</p>
+                    </div> <!-- fecha especialidades-box -->
+                    <div class="especialidades-box">
+                        <i class="bi bi-filetype-js"></i>
+                        <h3>JAVASCRIPT</h3>
+                        <p>Acrescentando funcionalidade através da linguagem JavaScript.</p>
+                    </div> <!-- fecha especialidades-box -->
+                </div> <!-- fecha a div flex-->
+            </div> <!-- fecha a div interface -->
+        </section> <!-- fecha a section especialidades -->
+
+        <section class="portfolio" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-portfolio" style="background-image: url(image/BC-port.jpg);">
+                        <div class="overlay">Este projeto foi desenvolvido como um cardápio para uma cafeteria, utilizando apenas a linguagem de marcação HTML e a linguagem CSS para estilização.</div>
+                    </div>
+                    <div class="img-portfolio" style="background-image: url(image/ODS-port.jpg);">
+                        <div class="overlay">Projeto de desenvolvimento de um site sobre o ODS 10 da ONU, em HTML, usando linguagem CSS para estilização.</div> 
+                    </div>
+                    <div class="img-portfolio">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div> <!-- fecha a flex -->
+            </div> <!-- fecha interface -->
+        </section> <!-- fecha a section portfolio -->
+
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+                <form method="post" action="send.php">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="number" name="telefone" id="telefone" placeholder="Seu celular:">
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem:" required></textarea>
+                    <div class="enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div> <!-- fecha interface -->
+        </section> <!-- fecha section formulário -->
+    </main>
+    <footer> <!-- Rodapé -->
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                <div class="logo-footer">
+                    <p>Criado por:</p>
+                    <img src="image/logo_updated.jpeg" alt="logotipo TFL">
+                </div> <!-- fecha logo-footer-->
+                <div class="email">
+                    <p><i class="bi bi-envelope-fill"></i><a href="mailto:thaisnandalopes@gmail.com">Thaís Fernanda Lopes</a></p>
+                </div> <!-- fecha a div rede-social -->
+                </div> <!-- fecha flex -->
+            </div> <!-- fecha line-footer -->
+            <div class="line-footer borda">
+                <p>Referências para a criação do portfólio:</p>
+            </div> <!-- fecha line-footer -->
+            <div class="rede-social">
+                <a target="_blank" href="https://getbootstrap.com/"><button><i class="bi bi-bootstrap-fill"></i></button></a>
+                <a target="_blank" href="https://www.youtube.com/@InteliogiaDev"><button><i class="bi bi-youtube"></i></button></a>
+                <a target="_blank" href="https://www.w3schools.com/"><button><i class="bi bi-code-square"></i></button></a>
+            </div> <!-- fecha div rede-social -->
+        </div> <!-- fecha intrface -->
+    </footer>
+
+    <script src="main.js"></script>
+    <noscript>Você precisa habilitar o JavaScript para visualizar esse site.</noscript>
+
+</body>
+</html>
